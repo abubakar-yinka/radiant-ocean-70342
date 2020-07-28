@@ -18,8 +18,6 @@ const db = knex({
     }
   });
 
-  console.log(process.env.DATABASE_URL);
-
 //   db.select('*').from('users').then(data => {
 //       console.log(data);
 //   });
