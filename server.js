@@ -18,6 +18,8 @@ const db = knex({
     }
   });
 
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
+
 //   db.select('*').from('users').then(data => {
 //       console.log(data);
 //   });
